@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+chosen=$(printf "  Power Off\n  Restart\n鈴 Supend\n  Lock\n" | rofi -dmenu -p "⏻" -i -theme-str '@import "~/.config/rofi/theme.rasi"')
+
+case "$chosen" in
+	"  Power Off") systemctl poweroff ;;
+	"  Restart") systemctl reboot ;;
+	"  Lock") ~/.config/scripts/lock-blur;;
+  "鈴 Supend")	systemctl suspend && ~/.config/scripts/lock-blur;;
+  *) exit 1 ;;
+esac
+
+
+
+
+

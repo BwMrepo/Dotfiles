@@ -1,0 +1,3 @@
+#!/usr/bin/env bash 
+
+sudo virsh start arch && sudo virt-viewer arch && exit

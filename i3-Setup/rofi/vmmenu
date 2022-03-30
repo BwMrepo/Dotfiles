@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+chosen=$(printf " Endeavor\n Windows\n Kali\n" | rofi -dmenu -p "⏻" -i -theme-str '@import "~/.config/rofi/theme.rasi"')
+
+case "$chosen" in
+	" Endeavor")kitty ~/.config/rofi/scripts/startarch;;
+	"  Restart") systemctl reboot ;;
+	"  Lock") ~/.config/scripts/lock-blur;;
+  "鈴 Supend")	systemctl suspend && ~/.config/scripts/lock-blur;;
+  *) exit 1 ;;
+esac
+
+
+
+
+

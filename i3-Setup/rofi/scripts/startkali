@@ -1,0 +1,3 @@
+#!/usr/bin/env bash 
+
+sudo virsh start linux2020 && sudo virt-viewer arch && exit

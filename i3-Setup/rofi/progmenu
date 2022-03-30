@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+chosen=$(printf " workspace\n workspace\n workspace\n workspace\n workspace\n" | rofi -dmenu -p "" -i -theme-str '@import "~/.config/rofi/theme.rasi"')
+
+case "$chosen" in
+	" workspace") code ~/Devel/C;;
+	" workspace") code ~/Devel/java/;;
+	" workspace")  code ~/Devel/py/;;
+  " workspace") code ~/Devel/web/;;
+  " workspace") virt-manager;;
+  *) exit 1 ;;
+esac
+
+
+
+
