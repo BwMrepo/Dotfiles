@@ -1,0 +1,7 @@
+pane	0	0	0	:	0	redlotus@popo: ~	:/home/redlotus	1	bash	:
+pane	0	1	0	:-	0	redlotus@popo: ~	:/home/redlotus	1	vim	:vim
+pane	0	2	1	:*	0	redlotus@popo: ~	:/home/redlotus	1	w3m	:w3m www.duckduckgo.com
+window	0	0	:TERM 	0	:	be5d,65x36,0,0,0	off
+window	0	1	:CODE	0	:-	be61,65x36,0,0,4	off
+window	0	2	:INET	1	:*	be62,65x36,0,0,5	off
+state	0	

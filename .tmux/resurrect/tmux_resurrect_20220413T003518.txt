@@ -1,0 +1,5 @@
+pane	0	0	1	:*	0	redlotus@popo: ~	:/home/redlotus	1	bash	:
+pane	0	1	0	:-	0	redlotus@popo: ~	:/home/redlotus	1	bash	:
+window	0	0	:TERM 	1	:*	c47d,146x36,0,0,0	off
+window	0	1	:Inet	0	:-	c47e,146x36,0,0,1	off
+state	0	
